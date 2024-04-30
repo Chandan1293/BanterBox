@@ -10,7 +10,7 @@ body {
 .background {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(75deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgba(0, 0, 0) 100%);
+  background: linear-gradient(75deg, rgb(40, 43, 54) 0%, rgb(40, 43, 54) 50%, rgb(40, 43, 54) 100%);
   /* Vertical center */
   display: table-cell;
   vertical-align: middle;
@@ -55,7 +55,7 @@ body {
   width: 100px;
 }
 .auth-input {
-  background-color: #3e404b;
+  background-color: rgb(0, 0, 0);
   color: white;
   font-family: "Avenir";
   outline: none;
@@ -87,4 +87,43 @@ body {
   margin-left: 10%; 
   color: white; 
   background: rgb(43, 47, 60);
+}
+.ce-my-message-body{
+  background-color: #fa541c !important;    
+
+}
+.ce-message-list {
+  background: rgb(40, 43, 54) !important;
+}
+.ce-active-chat-card {
+  background-color: #fa541c!important;
+  border-top-color: #fa541c !important;
+  border-bottom-color: #fa541c !important;
+  border-left-color: #fa541c !important;
+  border-right-color: #fa541c !important;
+  box-shadow: rgba(255, 109, 24, 0.35) 0px 2px 7px !important;
+}
+.ce-their-message-body {
+  background-color: #fa541c !important;
+}
+.ce-chat-feed {
+  background: rgb(0, 0, 0) !important;
+
+}
+.ce-custom-send-button {
+  background-color: #fa541c !important;
+  border-top-color: #fa541c !important;
+  border-bottom-color: #fa541c !important;
+  border-left-color: #fa541c !important;
+  border-right-color: #fa541c !important;
+  box-shadow: rgba(255, 109, 24, 0.35) 0px 2px 7px !important;
+}
+.ce-custom-message-input {
+  background-color: rgb(40, 43, 54) !important;
+  color: white !important;
+  border-top-color: #fa541c !important;
+  border-bottom-color: #fa541c !important;
+  border-left-color: #fa541c !important;
+  border-right-color: #fa541c !important;
+  box-shadow: rgba(255, 109, 24, 0.35) 0px 2px 7px !important;
 }
