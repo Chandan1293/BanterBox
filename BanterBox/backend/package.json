@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "export PATH=/opt/render/backend/node_modules/.bin/nodemon app/server.js && npm start"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
